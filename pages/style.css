@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(70, 70, 68);
+    color: white;
+}
+
+.brand-name {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.navbar-links {
+}
+
+.navbar-links ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar-links ul li {
+    margin: 20px;
+    font-size: 1.5rem;
+    list-style:  none;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+}
